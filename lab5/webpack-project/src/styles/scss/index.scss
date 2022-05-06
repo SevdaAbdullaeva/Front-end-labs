@@ -1,0 +1,68 @@
+@import "../css/normalize.css";
+
+/* цвет основного фона */
+body {
+  background: linear-gradient(#006363, #1D7373) fixed;
+  color: rgba(255, 255, 255, 80%);
+}
+
+/* Изменение шрифта центрального текста */
+h1.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Цвет центрально текста */
+h1 {
+  color: #f3ccf8;
+}
+
+/* Расположение текста */
+h1 {
+  text-align: center;
+}
+
+/* Верхняя часть ...*/
+.nav li {
+  color: #f3ccf8;
+  display: inline-block;
+  padding: 15px;
+  font-size: 25px;
+  text-decoration: none; 
+}
+
+#img-section {
+  width: 100%;
+}
+
+/* Работа с изображениями */
+#img-section img {
+  text-align: center;
+  display: block;
+  margin: 0 auto; 
+
+  border-radius: 200px; /* Радиус скругления */
+  border: 3px solid #a7697e; /* Параметры рамки */
+  box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.sign p{
+  text-align: center;
+}
+
+#text p {
+  width: 1300px; /* Ширина блока */
+  padding: 10px; /* Поля */
+  word-wrap: break-word;
+}
+
+table {
+  width: 100%; /* Ширина таблицы */
+  background: white; /* Цвет фона таблицы */
+  color: white; /* Цвет текста */
+  border-spacing: 1px; /* Расстояние между ячейками */
+ }
+
+ td, th {
+  background: #006363; /* Цвет фона ячеек */
+  padding: 5px; /* Поля вокруг текста */
+ }
